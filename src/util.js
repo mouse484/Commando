@@ -1,6 +1,9 @@
 function disambiguation(items, label, property = 'name') {
 	const itemList = items.map(item => `"${(property ? item[property] : item).replace(/ /g, '\xa0')}"`).join(',   ');
+    /*
 	return `Multiple ${label} found, please be more specific: ${itemList}`;
+    */
+    return `複数の${label}が見つかりました、もっと詳しく書いてください。`
 }
 
 function paginate(items, page = 1, pageLength = 10) {

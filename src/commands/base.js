@@ -233,7 +233,10 @@ class Command {
 		if(ownerOverride && this.client.isOwner(message.author)) return true;
 
 		if(this.ownerOnly && (ownerOverride || !this.client.isOwner(message.author))) {
+            /*
 			return `The \`${this.name}\` command can only be used by the bot owner.`;
+            */
+            return `\`${this.name}\`は、オーナーのみが利用できるコマンドです。`
 		}
 
 		if(message.channel.type === 'text' && this.userPermissions) {
