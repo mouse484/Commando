@@ -1,3 +1,6 @@
+# Discord.js-commando Japanese
+個人利用のために公式フレームワークの一部を日本語化しています。
+
 # Commando
 [![Discord](https://discordapp.com/api/guilds/222078108977594368/embed.png)](https://discord.gg/bRCvFy9)
 [![Downloads](https://img.shields.io/npm/dt/discord.js-commando.svg)](https://www.npmjs.com/package/discord.js-commando)
@@ -30,9 +33,9 @@ Additionally, it makes full use of ES2017's `async`/`await` functionality for cl
 - Command throttling/cooldowns
 
 ## Installation
-**Node 8.0.0 or newer is required.**  
+**Node 8.0.0 or newer is required.**
 `npm install discord.js-commando`
 
 ## Documentation
-[View the docs here.](https://discord.js.org/#/docs/commando)  
+[View the docs here.](https://discord.js.org/#/docs/commando)
 See the [discord.js documentation](https://discord.js.org/#/docs) as well.
